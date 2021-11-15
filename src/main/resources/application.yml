@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: language-man-service
+
+
+discord:
+  bot:
+    token: the-token-for-your-bot-gotten-from-discord-developer-console
+
+utilities:
+  bht-api:
+    key: big-huge-thesaurus-api-key # visit www.words.bighugelabs.com to get one
+    host: https://words.bighugelabs.com/api/2
+  merriam-webster:
+    key: merriam-webster-api-key #visit www.dictionaryapi.com to get one
+    host: https://www.dictionaryapi.com/api/v3/references/thesaurus/json
